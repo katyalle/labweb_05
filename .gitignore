@@ -1,0 +1,10 @@
+# залежності — встановлюються командою npm install, у git не зберігаємо
+node_modules/
+# результат збірки — Vercel створює його сам під час npm run build
+dist/
+# службові папки редакторів і Vercel CLI
+.vs/
+.vscode/
+.vercel/
+.DS_Store
+*.log
